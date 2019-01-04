@@ -1,19 +1,19 @@
 {
-  "name": "js-playlist",
+  "name": "to-do_apps",
   "version": "1.0.0",
-  "description": "new to-do app",
-  "main": "app.js",
+  "description": "CSS and asset files for the Net Ninja YouTube nodejs playlist",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/node-js-playlist.git"
+    "url": "git+https://github.com/aasifsayyad/to-do_apps.git"
   },
-  "author": "asif",
+  "author": "ashif",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/node-js-playlist/issues"
+    "url": "https://github.com/aasifsayyad/to-do_apps/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme"
+  "homepage": "https://github.com/aasifsayyad/to-do_apps#readme"
 }
