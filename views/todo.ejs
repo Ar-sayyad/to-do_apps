@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div id="todo-table"
+          <form action="">
+              <div class="row">
+                <div class="col-sm-6">
+                  <input type="text" id="item" placeholder="Add Item" name="Item">
+                </div>
+                <div class="col-sm-6">
+                  <button type="submit" class="">Add Item</button>
+                </div>
+            </div>
+          </form>
+      <ul>
+        <% for(var i=0; i < todos.length; i++){ %>
+          <li><%= todos[i].item %></li>
+        <% } %>
+      </ul>
+
+      </div>
+    </div>
+  </body>
+</html>

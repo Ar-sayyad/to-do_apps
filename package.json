@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/aasifsayyad/to-do_apps/issues"
   },
-  "homepage": "https://github.com/aasifsayyad/to-do_apps#readme"
+  "homepage": "https://github.com/aasifsayyad/to-do_apps#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
 }
